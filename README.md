@@ -51,6 +51,29 @@ COVID-19-Data-Analysis/
    - Open and execute the SQL queries from the **[`SQL_Queries.md`](SQL_Queries.md)** file.  
    - These queries will help you generate insights from the data.
 
+### Example Query
+This query calculates the Case Detection Rate (percentage of tests that result in confirmed cases) by location and month.
+```sql
+SELECT 
+    D.location,
+    FORMAT(DATEFROMPARTS(YEAR(D.date), MONTH(D.date), 1), 'yyyy-MM') AS Month,
+    SUM(TRY_CAST(V.new_tests AS FLOAT)) AS Monthly_Tests,
+    SUM(TRY_CAST(D.new_cases AS FLOAT)) AS Monthly_Cases,
+    CASE 
+        WHEN SUM(TRY_CAST(V.new_tests AS FLOAT)) = 0 THEN NULL
+        ELSE (SUM(TRY_CAST(D.new_cases AS FLOAT)) / NULLIF(SUM(TRY_CAST(V.new_tests AS FLOAT)), 0)) * 100 
+    END AS Case_Detection_Rate_PCT
+FROM dbo.Covid_Deaths D
+JOIN dbo.Covid_Vaccinations V 
+     ON D.iso_code = V.iso_code
+    AND D.date = V.date
+WHERE D.continent IS NOT NULL
+  AND D.new_cases IS NOT NULL
+  AND V.new_tests IS NOT NULL
+GROUP BY D.location, YEAR(D.date), MONTH(D.date)
+ORDER BY D.location, Month;
+```
+
 3️⃣ **Explore the SQL Notebook**  
    - Open the **[`COVID_Queries_Notebook.ipynb`](COVID_Queries_Notebook.ipynb)** to view and execute the queries along with their results.
 
