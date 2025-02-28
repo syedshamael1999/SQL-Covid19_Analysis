@@ -1,5 +1,5 @@
 # 🦠 COVID-19 Data Analysis Report
-This report provides an overview of key COVID-19 trends based on SQL queries executed for data analysis. The insights reveal how the pandemic evolved, the effectiveness of interventions, and the disparities in response across different regions. The data used in this project is available from **January 1, 2020**, to **March 30, 2021**.
+This report provides an overview of key COVID-19 trends based on SQL queries executed for data analysis. The insights reveal how the pandemic evolved, the effectiveness of interventions, and the disparities in response across different regions. The data used in this project is available from **January 1, 2020** to **December 4, 2021****.
 ## 📊 Global Trends
 
 ### Total Cases, Deaths, and Vaccinations Over Time
