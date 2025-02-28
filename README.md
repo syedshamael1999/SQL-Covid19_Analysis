@@ -66,4 +66,4 @@ The `Covid19-Analysis_Report.md` contains:
 4️⃣ **Read the Full Report**  
    - Read the detailed findings in the **[`Covid19-Analysis_Report.md`](Covid19-Analysis_Report.md)**.
 
-📄 **[View Full SQL Queries](SQL_Queries.md)** | 📊 **[Read Business Report](Covid19-Analysis_Report.md)** | 📓 **[View SQL Notebook](SQL_Analysis_Notebook.ipynb)**
+📄 **[View Full SQL Queries](SQL_Queries.md)** | 📊 **[Read Report](Covid19-Analysis_Report.md)** | 📓 **[View SQL Notebook](SQL_Analysis_Notebook.ipynb)**
