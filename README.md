@@ -1,7 +1,7 @@
 # 🦠 **COVID-19 Data Analysis**
 
 ## 📌 **Overview**  
-This project analyzes **COVID-19 data** using **SQL queries** on **MS SQL Server**, focusing on **global trends, mortality rates, vaccination impact, and testing effectiveness**. The data spans from **January 1, 2020, to March 30, 2021** and includes key metrics such as **cases, deaths, vaccinations, and tests**. The analysis offers insights into **pandemic progression, regional variations, and the effectiveness of interventions**.
+This project analyzes **COVID-19 data** using **SQL queries** on **MS SQL Server**, focusing on **global trends, mortality rates, vaccination impact, and testing effectiveness**. The data spans from **January 1, 2020** to **December 4, 2021** and includes key metrics such as **cases, deaths, vaccinations, and tests**. The analysis offers insights into **pandemic progression, regional variations, and the effectiveness of interventions**.
 
 ## 📂 **Dataset Overview**  
 The datasets used in this project are:
