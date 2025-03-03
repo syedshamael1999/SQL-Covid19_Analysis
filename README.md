@@ -25,7 +25,7 @@ The `Covid19-Analysis_Report.md` contains:
 ## 📜 **What's Included?**  
 📂 **SQL Queries (`SQL_Queries.md`)** – All SQL scripts used for data retrieval and analysis.  
 📓 **SQL Notebook (`SQL_Analysis_Notebook.ipynb`)** – SQL notebook with executed queries and results.  
-📄 **Full Business Report (`Covid19-Analysis_Report.md`)** – A report of the findings.  
+📄 **Full Report (`Covid19-Analysis_Report.md`)** – A report of the findings.  
 📊 **Datasets** – (`Covid_Deaths.xlsx`) and (`Covid_Vaccinations.xlsx`) - Raw data files used for analysis.  
 
 ## 🛠 **Tools Used**  
