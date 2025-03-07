@@ -49,7 +49,7 @@ The `Covid19-Analysis_Report.md` contains:
 │
 │── README.md                        # Project overview and instructions
 ```
-## 📌 **How to Use**  
+## 📌 **If You Want to Validate My Queries**  
 1️⃣ **Download the datasets**  
    - Download the datasets from the repository:  
      - [`Covid_Deaths.xlsx`](Covid_Deaths.xlsx)  
